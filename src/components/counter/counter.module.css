@@ -1,0 +1,19 @@
+.button {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.highCount {
+  color: #ff0000;
+}
+
+.superHighCount {
+  font-weight: bold;
+}

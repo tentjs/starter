@@ -1,0 +1,53 @@
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  font-size: 14px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 900;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #0070f3;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #eaeaea;
+  margin: 1em 0 2em 0;
+}
+
+#app {
+  padding: 0 40px 20px;
+  margin-top: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inner {
+  max-width: 400px;
+}
+
+.backticks {
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 0.25em 0.5em;
+  font-family: monospace;
+  font-size: 0.8em;
+  display: inline-block;
+}

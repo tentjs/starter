@@ -1,0 +1,33 @@
+{
+  "name": "@tentjs/starter",
+  "version": "0.0.1",
+  "description": "This is the official starter template for ⛺ Tent.",
+  "source": "./src/index.html",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "watch": "parcel ./src/index.html",
+    "build": "rm -rf dist .parcel-cache && parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tentjs/starter.git"
+  },
+  "keywords": ["tent", "starter", "template", "typescript"],
+  "author": "sebkolind <sks1993@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tentjs/starter/issues"
+  },
+  "homepage": "https://github.com/tentjs/starter#readme",
+  "dependencies": {
+    "@tentjs/tent": "^0.0.23"
+  },
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.12.0",
+    "@parcel/transformer-typescript-types": "^2.12.0",
+    "parcel": "^2.12.0",
+    "typescript": "^5.4.5"
+  }
+}
