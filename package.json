@@ -14,7 +14,12 @@
     "type": "git",
     "url": "git+ssh://git@github.com/tentjs/starter.git"
   },
-  "keywords": ["tent", "starter", "template", "typescript"],
+  "keywords": [
+    "tent",
+    "starter",
+    "template",
+    "typescript"
+  ],
   "author": "sebkolind <sks1993@gmail.com>",
   "license": "MIT",
   "bugs": {
@@ -22,7 +27,7 @@
   },
   "homepage": "https://github.com/tentjs/starter#readme",
   "dependencies": {
-    "@tentjs/tent": "^0.0.23"
+    "@tentjs/tent": "^0.0.24"
   },
   "devDependencies": {
     "@parcel/packager-ts": "^2.12.0",
