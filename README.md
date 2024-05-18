@@ -7,6 +7,7 @@ The official starter template for ⛺ Tent.
 - [TypeScript](https://www.typescriptlang.org/)
 - [CSS Modules](https://github.com/css-modules/css-modules)
 - [Parcel](https://parceljs.org/)
+- [Jest](https://jestjs.io/)
 
 ## Usage
 

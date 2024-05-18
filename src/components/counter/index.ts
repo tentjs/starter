@@ -13,7 +13,7 @@ export const Counter: Component<State> = {
   view: ({ state }) =>
     button(`Clicked ${state.count} times`, {
       onclick: () => state.count++,
-      class: classes(
+      className: classes(
         styles.button,
         state.count > 2 && styles.highCount,
         state.count > 5 && styles.superHighCount,

@@ -7,8 +7,9 @@
   "module": "dist/module.js",
   "types": "dist/main.d.ts",
   "scripts": {
-    "watch": "parcel ./src/index.html",
-    "build": "rm -rf dist .parcel-cache && parcel src/index.html"
+    "watch": "parcel ./src/index.html --no-cache",
+    "build": "rm -rf dist .parcel-cache && parcel src/index.html",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -27,12 +28,18 @@
   },
   "homepage": "https://github.com/tentjs/starter#readme",
   "dependencies": {
-    "@tentjs/tent": "^0.0.25"
+    "@tentjs/tent": "^0.0.30"
   },
   "devDependencies": {
     "@parcel/packager-ts": "^2.12.0",
     "@parcel/transformer-typescript-types": "^2.12.0",
+    "@testing-library/dom": "^10.1.0",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "parcel": "^2.12.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
 }
