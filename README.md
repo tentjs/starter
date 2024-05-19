@@ -12,7 +12,7 @@ The official starter template for ⛺ Tent.
 ## Usage
 
 ```bash
-git clone @tentjs/starter my-app
+git clone https://github.com/tentjs/starter my-app
 cd my-app
 npm install
 npm run watch
