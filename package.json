@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/tentjs/starter#readme",
   "dependencies": {
-    "@tentjs/tent": "^0.0.30"
+    "@tentjs/tent": "^0.0.32"
   },
   "devDependencies": {
     "@parcel/packager-ts": "^2.12.0",
