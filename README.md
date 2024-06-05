@@ -11,7 +11,7 @@ The official starter template for ⛺ Tent.
 
 ## Usage
 
-### 1. Clone the starter project:
+### Clone the starter project
 Clone the repository to your local machine using the following command:
 ```bash
 git clone https://github.com/tentjs/starter my-app
@@ -33,21 +33,19 @@ This command creates a new directory called `my-app` containing the starter proj
 - **`src/utils`**: Contains utility functions used throughout the project.
 - **`src/__tests__`**: Houses the test files.
 
-### 2. Navigate to the project directory:
-Change your current working directory to the newly created `my-app` directory:
+### Install dependencies
+Change your current working directory to the newly created `my-app` directory. This ensures that all subsequent commands are executed within the context of your project.
 ```bash
 cd my-app
 ```
-This ensures that all subsequent commands are executed within the context of your project.
 
-### 3. Install dependencies:
 Install the necessary dependencies required by the project using npm:
 ```bash
 npm install
 ```
 This command reads the `package.json` file and installs all listed dependencies into the `node_modules` directory. Dependencies include libraries and tools necessary for development and production.
 
-### 4. Start the development server:
+### Start the development server
 Launch the development server with the following command:
 ```bash
 npm run watch
